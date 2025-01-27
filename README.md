@@ -4,6 +4,9 @@ Notebook provided by Alessandro Resende and Emanuel Sallinger from TU Wien.
 
 Encaspulated here in a dockerized jupyter environment.
 
+A small experiment using the [pykeen library](https://github.com/pykeen/pykeen) on its nations 
+sample dataset to inference unknown knowledge graph data.
+
 **how to reproduce**
 
 ```
