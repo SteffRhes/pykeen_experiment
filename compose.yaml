@@ -1,0 +1,11 @@
+
+services:
+  pykeen:
+    build: .
+    command: jupyter notebook --allow-root --ip='*' --NotebookApp.token='' --NotebookApp.password=''
+    ports:
+      - 8888:8888
+    volumes:
+      - ./:/app/
+    working_dir: /app
+
